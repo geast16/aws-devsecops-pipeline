@@ -6,10 +6,10 @@ provider "random" {}
 
 terraform {
   cloud {
-    organization = "DSB"
+    organization = "geast-dso"
 
     workspaces {
-      name = "dsb-aws-devsecops-pipelines"
+      name = "-geast-dso-aws-devsecops-pipelines"
     }
   }
 }
