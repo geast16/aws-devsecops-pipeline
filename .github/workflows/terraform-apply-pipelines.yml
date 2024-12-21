@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "geast-dso"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "geast-dso-aws-devsecops-eks-cluster"
+  TF_WORKSPACE: "geast-dso-aws-devsecops-eks-pipelines"
   CONFIG_DIRECTORY: "./terraform/pipelines"
 
 jobs:
